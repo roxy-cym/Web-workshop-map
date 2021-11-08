@@ -1,0 +1,67 @@
+html, body, #wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+p{
+    font-size: 12px;
+    color:black;
+}
+
+h1{
+    font-size:16px;
+}
+
+#title{
+    position: relative;
+
+}
+#sub{
+    position: fixed;
+    top: 20px;
+    left:600px;
+    width:300px;
+    height:15px;
+    
+}
+#sub p{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#info{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color:#F7F9F9;
+    width:180px;
+    height:150px;
+    
+}
+
+#header{
+    height: 100px;  //or whatever. Note px not %.
+    width: 100%;
+}
+
+#footer{
+    height: 100px;  //or whatever. Note px not %.
+    width: 100%;
+}
+
+#map-canvas{
+    height: 100%;
+    width: 100%;
+}
+
+#displayWrapper{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px;
+    font-size: 30px;
+    bottom: 50px;
+    right: 10px;
+    color: #ffffff;
+}
